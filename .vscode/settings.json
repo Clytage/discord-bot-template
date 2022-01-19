@@ -1,6 +1,5 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "eslint.packageManager": "npm",
-    "npm.packageManager": "npm",
-    "files.eol": "\n"
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true
 }
