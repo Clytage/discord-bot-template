@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "diagnostics": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "lib": ["ESNext"],
+        "module": "ES2022",
+        "moduleResolution": "Node",
+        "noEmitHelpers": true,
+        "outDir": "dist",
+        "pretty": true,
+        "rootDir": "src",
+        "skipLibCheck": false,
+        "strict": true,
+        "target": "ESNext",
+        "typeRoots": [
+            "node_modules/@types",
+            "src/typings"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
